@@ -59,4 +59,11 @@ try:
 
 except Exception as ex:
     st.error(f"An error occurred: {str(ex)}")
-
+[connections.my_example_connection]
+account = "JROJWPE-DQB40634"
+user = "LUKENICHOLS640"
+authenticator = "externalbrowser"
+role = "SYSADMIN"
+warehouse = "<none selected>"
+database = "<none selected>"
+schema = "<none selected>"
